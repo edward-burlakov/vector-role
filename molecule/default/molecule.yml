@@ -11,11 +11,11 @@ platforms:
     image: docker.io/pycontribs/centos:8
     pre_build_image: true
     # передаём переменные внутрь образа
-    env:
-      ANSIBLE_USER: ansible
-      SUDO_GROUP: wheel
-      DEPLOY_GROUP: deployer
-      container: docker
+    # env:
+    #  ANSIBLE_USER: ansible
+    #  SUDO_GROUP: wheel
+    #  DEPLOY_GROUP: deployer
+    #  container: docker
   - name: ubuntu
     image: docker.io/pycontribs/ubuntu:latest
     pre_build_image: true
